@@ -1,0 +1,40 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "first_name": "Customer_1",
+      "last_name": "Customer_1",
+      "email": "customer1@mail.com",
+      "phone": "00000000000",
+      "address": "Customer_1 Address",
+      "description": "Customer_1 description"
+    },
+    {
+      "first_name": "sdf",
+      "last_name": "sdfs",
+      "email": "shshk777@yandex.ru",
+      "phone": "af",
+      "address": "fdsd",
+      "description": "sdfs",
+      "id": 2
+    },
+    {
+      "first_name": "xvbx",
+      "last_name": "xcvxc",
+      "email": "xvxc",
+      "phone": "xvcxc",
+      "address": "xvc",
+      "description": "xvcxc",
+      "id": 4
+    },
+    {
+      "first_name": "wdf",
+      "last_name": "qweqw",
+      "email": "qwe",
+      "phone": "qweq",
+      "address": "qwe",
+      "description": "qwe",
+      "id": 5
+    }
+  ]
+}
