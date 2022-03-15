@@ -1,1 +1,0 @@
-https://codesandbox.io/s/7kiwr?file=/src/data.js
