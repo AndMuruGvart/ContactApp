@@ -2,52 +2,40 @@ import React, { useEffect, useState} from "react";
 import './main.global.css';
 import { hot } from "react-hot-loader/root";
 import {Layout} from './shared/Layout';
-import { Header } from "./shared/Header";
-import { applyMiddleware, createStore } from "redux";
+import {  createStore } from "redux";
 import { Provider, useSelector} from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import thunk, { ThunkMiddleware } from "redux-thunk";
-import { MyAction, rootReducer, RootState} from "./store/reducer";
-import { saveToken, SetToken, TOKEN } from "./store/saveToken/actionsToken";
-import { BrowserRouter } from "react-router-dom";
-import AppList from "./AppList";
-import { UserContextProvider } from "./shared/Context/userContext";
-import { PostsContextProvider } from "./shared/Context/postsContext";
-import { CardsLists } from "./CardsLists";
+import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import { Check } from "./Check";
+import Login from "./Authentification/Login";
+import SignUp from "./Authentification/SignUp";
+import { rootReducer, setToken } from "./store/store";
+import { Break } from "./shared/Break";
 
 
-
-const store=createStore(rootReducer, composeWithDevTools(
-    applyMiddleware(thunk as ThunkMiddleware<RootState, MyAction> ),
-));
+const store=createStore(rootReducer, composeWithDevTools());
 
 
-function AppComponent() {
-    const [mounted, setMounted]=useState(false);
+    function AppComponent() {
 
-
-    useEffect(() => {
-        setMounted(true)
-    }, []);
-    store.dispatch(saveToken());
-
-    
+ 
      return (
-         <Provider store={store}>
-             { mounted &&(
-                <UserContextProvider>
-                <PostsContextProvider>
-                <BrowserRouter>
+
+        <Provider store={store}>
+                <BrowserRouter >
                 <Layout>
-                <Header />
-                    <Check/>
+                    <Break size={20} top/>
+                    <Link to={'/login'}> Login Form </Link>
+                    <Break size={20} top/>
+                    <Link to={'/signup'}> SignUp Form </Link>
+                        <Switch>
+                            <Route path={'/login'} exact component={Login} />
+                            <Route path={'/signup'} exact component={SignUp} />
+                        </Switch>
+                        <Break size={20} top/>
+                        <Check/>
                 </Layout>
                 </BrowserRouter>
-                </PostsContextProvider>
-                 </UserContextProvider>
-             )
-             }
          </Provider>
     );
 };

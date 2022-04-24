@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "9f1e9efbfca444ee7a67";
+/******/ 	var hotCurrentHash = "d0845bd15a18c30fea1b";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1272,50 +1272,6 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/UserBlock/userblock.css":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/SearchBlock/UserBlock/userblock.css ***!
-  \***************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".userblock__userBox--24rEF {\\r\\n    cursor: pointer;\\r\\n    display: flex;\\r\\n    align-items: center;\\r\\n  }\\r\\n  \\r\\n  .userblock__userBox--24rEF:hover span {\\r\\n    color: var(--orange);\\r\\n  }\\r\\n  .userblock__userBox--24rEF:hover .userblock__avatarBox--2OTfi {\\r\\n    box-shadow: 0 0 0 1px var(--orange);\\r\\n  }\\r\\n  \\r\\n  .userblock__avatarBox--2OTfi {\\r\\n    width: 60px;\\r\\n    height: 60px;\\r\\n    padding: 5px;\\r\\n    border-radius: 100%;\\r\\n    box-shadow: none;\\r\\n  }\\r\\n  \\r\\n  .userblock__avatarImage--2ryXC {\\r\\n    width: 100%;\\r\\n    height: 100%;\\r\\n    object-fit: cover;\\r\\n    border-radius: 100%;\\r\\n  }\\r\\n  \\r\\n  .userblock__username--3bLc0 {\\r\\n    display: none;\\r\\n  }\\r\\n  \\r\\n  @media all and (min-width: 1024px) {\\r\\n    .userblock__username--3bLc0 {\\r\\n      display: flex;\\r\\n    }\\r\\n  }\\r\\n  \", \"\"]);\n// Exports\nexports.locals = {\n\t\"userBox\": \"userblock__userBox--24rEF\",\n\t\"avatarBox\": \"userblock__avatarBox--2OTfi\",\n\t\"avatarImage\": \"userblock__avatarImage--2ryXC\",\n\t\"username\": \"userblock__username--3bLc0\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/UserBlock/userblock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/SearchBlock/searchblock.css ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".searchblock__searchBlock--3aDPv {\\r\\n    display: flex;\\r\\n    flex-flow: row nowrap;\\r\\n    justify-content: space-between;\\r\\n    align-items: center;\\r\\n    padding: 14px 20px;\\r\\n    background-color: var(--white);\\r\\n    border-radius: 0 0 7px 7px;\\r\\n    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);\\r\\n    margin: 0 0 38px;\\r\\n  }\\r\\n  \\r\\n  @media all and (min-width: 1024px) {\\r\\n    .searchblock__searchBlock--3aDPv {\\r\\n      padding: 0;\\r\\n      margin: 0 0 0 auto;\\r\\n      background-color: transparent;\\r\\n      border-radius: 0;\\r\\n      box-shadow: none;\\r\\n      order: 3;\\r\\n    }\\r\\n  }\\r\\n  \", \"\"]);\n// Exports\nexports.locals = {\n\t\"searchBlock\": \"searchblock__searchBlock--3aDPv\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/searchblock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SortBlock/sortblock.css":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/SortBlock/sortblock.css ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".sortblock__sortBlock--141aZ {\\r\\n    background-color: var(--white);\\r\\n    padding: 11px 20px;\\r\\n    border-radius: 7px;\\r\\n    margin: 0 0 20px;\\r\\n  }\\r\\n  \\r\\n  @media all and (min-width: 1024px) {\\r\\n    .sortblock__sortBlock--141aZ {\\r\\n      background-color: transparent;\\r\\n      padding: 0;\\r\\n      margin: 0;\\r\\n      border-radius: 0;\\r\\n    }\\r\\n  }\\r\\n  \", \"\"]);\n// Exports\nexports.locals = {\n\t\"sortBlock\": \"sortblock__sortBlock--141aZ\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SortBlock/sortblock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/header.css":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/header.css ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@media all and (min-width: 1024px) {\\r\\n    .header__header--bAgyG {\\r\\n      display: flex;\\r\\n      flex-flow: row nowrap;\\r\\n      align-items: center;\\r\\n      padding: 40px;\\r\\n    }\\r\\n  }\\r\\n  \\r\\n  @media all and (min-width: 1540px) {\\r\\n    .header__header--bAgyG {\\r\\n      padding: 67px 0;\\r\\n    }\\r\\n  }\\r\\n  \", \"\"]);\n// Exports\nexports.locals = {\n\t\"header\": \"header__header--bAgyG\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/header.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Layout/layout.css":
 /*!**************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Layout/layout.css ***!
@@ -1324,17 +1280,6 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".layout__layout--2fANc {\\r\\n    max-width: 1400px;\\r\\n    margin: 0 auto;\\r\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"layout\": \"layout__layout--2fANc\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Layout/layout.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Text/text.css":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Text/text.css ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".text__s28--Puvgs {\\r\\n    font-size: 28px;\\r\\n    line-height: 33px;\\r\\n  }\\r\\n  .text__s20--3Xq66 {\\r\\n    font-size: 20px;\\r\\n    line-height: 23px;\\r\\n  }\\r\\n  .text__s16--G_lUr {\\r\\n    font-size: 16px;\\r\\n    line-height: 19px;\\r\\n  }\\r\\n  .text__s14--jvCoO {\\r\\n    font-size: 14px;\\r\\n    line-height: 16px;\\r\\n  }\\r\\n  .text__s12--2S2T2 {\\r\\n    font-size: 12px;\\r\\n    line-height: 14px;\\r\\n  }\\r\\n  .text__s10--DYLfy {\\r\\n    font-size: 10px;\\r\\n    line-height: 12px;\\r\\n  }\\r\\n  \\r\\n  .text__black--1zchg {\\r\\n    color: var(--black);\\r\\n  }\\r\\n  .text__orange--1RyAM {\\r\\n    color: var(--orange);\\r\\n  }\\r\\n  .text__green--3mYQn {\\r\\n    color: var(--green);\\r\\n  }\\r\\n  .text__white--13JGE {\\r\\n    color: var(--white);\\r\\n  }\\r\\n  .text__grayF4--2X2jV {\\r\\n    color: var(--grayF4);\\r\\n  }\\r\\n  .text__greyF3--2Lfsi {\\r\\n    color: var(--greyF3);\\r\\n  }\\r\\n  .text__greyD9--7iRFr {\\r\\n    color: var(--greyD9);\\r\\n  }\\r\\n  .text__greyC4--3oiNM {\\r\\n    color: var(--greyC4);\\r\\n  }\\r\\n  .text__grey99--35u3B {\\r\\n    color: var(--grey99);\\r\\n  }\\r\\n  .text__grey66--373uw {\\r\\n    color: var(--grey66);\\r\\n  }\\r\\n  \\r\\n  .text__upperCase--2EMyT {\\r\\n    text-transform: uppercase;\\r\\n  }\\r\\n  \\r\\n  @media all and (min-width: 320px) and (max-width: 1023px) {\\r\\n    .text__m28--2u2zs {\\r\\n      font-size: 28px;\\r\\n      line-height: 33px;\\r\\n    }\\r\\n    .text__m20--1gFlM {\\r\\n      font-size: 20px;\\r\\n      line-height: 23px;\\r\\n    }\\r\\n    .text__m16--cSY4u {\\r\\n      font-size: 16px;\\r\\n      line-height: 19px;\\r\\n    }\\r\\n    .text__m14--s6pnr {\\r\\n      font-size: 14px;\\r\\n      line-height: 16px;\\r\\n    }\\r\\n    .text__m12--1W0av {\\r\\n      font-size: 12px;\\r\\n      line-height: 14px;\\r\\n    }\\r\\n    .text__m10--UtIkW {\\r\\n      font-size: 10px;\\r\\n      line-height: 12px;\\r\\n    }\\r\\n  }\\r\\n  \\r\\n  .text__bold--gb02H {\\r\\n    font-weight: 500;\\r\\n  }\\r\\n  \\r\\n  @media all and (min-width: 1024px) and (max-width: 1539px) {\\r\\n    .text__t28--A4rHF {\\r\\n      font-size: 28px;\\r\\n      line-height: 33px;\\r\\n    }\\r\\n    .text__t20--78tCz {\\r\\n      font-size: 20px;\\r\\n      line-height: 23px;\\r\\n    }\\r\\n    .text__t16--nkVMz {\\r\\n      font-size: 16px;\\r\\n      line-height: 19px;\\r\\n    }\\r\\n    .text__t14--1Rj72 {\\r\\n      font-size: 14px;\\r\\n      line-height: 16px;\\r\\n    }\\r\\n    .text__t12--7txjW {\\r\\n      font-size: 12px;\\r\\n      line-height: 14px;\\r\\n    }\\r\\n    .text__t10--n2R7f {\\r\\n      font-size: 10px;\\r\\n      line-height: 12px;\\r\\n    }\\r\\n  }\\r\\n  \\r\\n  @media all and (min-width: 1540px) {\\r\\n    .text__d28--3oIok {\\r\\n      font-size: 28px;\\r\\n      line-height: 33px;\\r\\n    }\\r\\n    .text__d20--uwHxr {\\r\\n      font-size: 20px;\\r\\n      line-height: 23px;\\r\\n    }\\r\\n    .text__d16--1Pwd1 {\\r\\n      font-size: 16px;\\r\\n      line-height: 19px;\\r\\n    }\\r\\n    .text__d14--3Futo {\\r\\n      font-size: 14px;\\r\\n      line-height: 16px;\\r\\n    }\\r\\n    .text__d12--5X_qc {\\r\\n      font-size: 12px;\\r\\n      line-height: 14px;\\r\\n    }\\r\\n    .text__d10--3pWnc {\\r\\n      font-size: 10px;\\r\\n      line-height: 12px;\\r\\n    }\\r\\n  }\\r\\n  \", \"\"]);\n// Exports\nexports.locals = {\n\t\"s28\": \"text__s28--Puvgs\",\n\t\"s20\": \"text__s20--3Xq66\",\n\t\"s16\": \"text__s16--G_lUr\",\n\t\"s14\": \"text__s14--jvCoO\",\n\t\"s12\": \"text__s12--2S2T2\",\n\t\"s10\": \"text__s10--DYLfy\",\n\t\"black\": \"text__black--1zchg\",\n\t\"orange\": \"text__orange--1RyAM\",\n\t\"green\": \"text__green--3mYQn\",\n\t\"white\": \"text__white--13JGE\",\n\t\"grayF4\": \"text__grayF4--2X2jV\",\n\t\"greyF3\": \"text__greyF3--2Lfsi\",\n\t\"greyD9\": \"text__greyD9--7iRFr\",\n\t\"greyC4\": \"text__greyC4--3oiNM\",\n\t\"grey99\": \"text__grey99--35u3B\",\n\t\"grey66\": \"text__grey66--373uw\",\n\t\"upperCase\": \"text__upperCase--2EMyT\",\n\t\"m28\": \"text__m28--2u2zs\",\n\t\"m20\": \"text__m20--1gFlM\",\n\t\"m16\": \"text__m16--cSY4u\",\n\t\"m14\": \"text__m14--s6pnr\",\n\t\"m12\": \"text__m12--1W0av\",\n\t\"m10\": \"text__m10--UtIkW\",\n\t\"bold\": \"text__bold--gb02H\",\n\t\"t28\": \"text__t28--A4rHF\",\n\t\"t20\": \"text__t20--78tCz\",\n\t\"t16\": \"text__t16--nkVMz\",\n\t\"t14\": \"text__t14--1Rj72\",\n\t\"t12\": \"text__t12--7txjW\",\n\t\"t10\": \"text__t10--n2R7f\",\n\t\"d28\": \"text__d28--3oIok\",\n\t\"d20\": \"text__d20--uwHxr\",\n\t\"d16\": \"text__d16--1Pwd1\",\n\t\"d14\": \"text__d14--3Futo\",\n\t\"d12\": \"text__d12--5X_qc\",\n\t\"d10\": \"text__d10--3pWnc\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Text/text.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -2082,18 +2027,6 @@ eval("\r\nvar compose = __webpack_require__(/*! redux */ \"./node_modules/redux/
 
 /***/ }),
 
-/***/ "./node_modules/redux-thunk/es/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/redux-thunk/es/index.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nfunction createThunkMiddleware(extraArgument) {\r\n    return function (_ref) {\r\n        var dispatch = _ref.dispatch, getState = _ref.getState;\r\n        return function (next) {\r\n            return function (action) {\r\n                if (typeof action === 'function') {\r\n                    return action(dispatch, getState, extraArgument);\r\n                }\r\n                return next(action);\r\n            };\r\n        };\r\n    };\r\n}\r\nvar thunk = createThunkMiddleware();\r\nthunk.withExtraArgument = createThunkMiddleware;\r\nexports.default = thunk;\r\n\n\n//# sourceURL=webpack:///./node_modules/redux-thunk/es/index.js?");
-
-/***/ }),
-
 /***/ "./node_modules/redux/es/redux.js":
 /*!****************************************!*\
   !*** ./node_modules/redux/es/redux.js ***!
@@ -2352,7 +2285,7 @@ eval("\r\nmodule.exports = function (module) {\r\n    if (!module.webpackPolyfil
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.App = void 0;\r\nconst react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\n__webpack_require__(/*! ./main.global.css */ \"./src/main.global.css\");\r\nconst root_1 = __webpack_require__(/*! react-hot-loader/root */ \"./node_modules/react-hot-loader/root.js\");\r\nconst Layout_1 = __webpack_require__(/*! ./shared/Layout */ \"./src/shared/Layout/index.ts\");\r\nconst Header_1 = __webpack_require__(/*! ./shared/Header */ \"./src/shared/Header/index.ts\");\r\nconst redux_1 = __webpack_require__(/*! redux */ \"./node_modules/redux/es/redux.js\");\r\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\r\nconst redux_devtools_extension_1 = __webpack_require__(/*! redux-devtools-extension */ \"./node_modules/redux-devtools-extension/index.js\");\r\nconst redux_thunk_1 = __importDefault(__webpack_require__(/*! redux-thunk */ \"./node_modules/redux-thunk/es/index.js\"));\r\nconst reducer_1 = __webpack_require__(/*! ./store/reducer */ \"./src/store/reducer.ts\");\r\nconst actionsToken_1 = __webpack_require__(/*! ./store/saveToken/actionsToken */ \"./src/store/saveToken/actionsToken.ts\");\r\nconst react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\r\nconst userContext_1 = __webpack_require__(/*! ./shared/Context/userContext */ \"./src/shared/Context/userContext.tsx\");\r\nconst postsContext_1 = __webpack_require__(/*! ./shared/Context/postsContext */ \"./src/shared/Context/postsContext.tsx\");\r\nconst Check_1 = __webpack_require__(/*! ./Check */ \"./src/Check.tsx\");\r\nconst store = redux_1.createStore(reducer_1.rootReducer, redux_devtools_extension_1.composeWithDevTools(redux_1.applyMiddleware(redux_thunk_1.default)));\r\nfunction AppComponent() {\r\n    const [mounted, setMounted] = react_1.useState(false);\r\n    react_1.useEffect(() => {\r\n        setMounted(true);\r\n    }, []);\r\n    store.dispatch(actionsToken_1.saveToken());\r\n    return (react_1.default.createElement(react_redux_1.Provider, { store: store }, mounted && (react_1.default.createElement(userContext_1.UserContextProvider, null,\r\n        react_1.default.createElement(postsContext_1.PostsContextProvider, null,\r\n            react_1.default.createElement(react_router_dom_1.BrowserRouter, null,\r\n                react_1.default.createElement(Layout_1.Layout, null,\r\n                    react_1.default.createElement(Header_1.Header, null),\r\n                    react_1.default.createElement(Check_1.Check, null))))))));\r\n}\r\n;\r\nexports.App = root_1.hot(() => react_1.default.createElement(AppComponent, null));\r\n\n\n//# sourceURL=webpack:///./src/App.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.App = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\n__webpack_require__(/*! ./main.global.css */ \"./src/main.global.css\");\r\nconst root_1 = __webpack_require__(/*! react-hot-loader/root */ \"./node_modules/react-hot-loader/root.js\");\r\nconst Layout_1 = __webpack_require__(/*! ./shared/Layout */ \"./src/shared/Layout/index.ts\");\r\nconst redux_1 = __webpack_require__(/*! redux */ \"./node_modules/redux/es/redux.js\");\r\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\r\nconst redux_devtools_extension_1 = __webpack_require__(/*! redux-devtools-extension */ \"./node_modules/redux-devtools-extension/index.js\");\r\nconst react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\r\nconst Check_1 = __webpack_require__(/*! ./Check */ \"./src/Check.tsx\");\r\nconst Login_1 = __importDefault(__webpack_require__(/*! ./Authentification/Login */ \"./src/Authentification/Login.tsx\"));\r\nconst SignUp_1 = __importDefault(__webpack_require__(/*! ./Authentification/SignUp */ \"./src/Authentification/SignUp.tsx\"));\r\nconst store_1 = __webpack_require__(/*! ./store/store */ \"./src/store/store.ts\");\r\nconst Break_1 = __webpack_require__(/*! ./shared/Break */ \"./src/shared/Break/index.ts\");\r\nconst store = redux_1.createStore(store_1.rootReducer, redux_devtools_extension_1.composeWithDevTools());\r\nfunction AppComponent() {\r\n    return (react_1.default.createElement(react_redux_1.Provider, { store: store },\r\n        react_1.default.createElement(react_router_dom_1.BrowserRouter, null,\r\n            react_1.default.createElement(Layout_1.Layout, null,\r\n                react_1.default.createElement(Break_1.Break, { size: 20, top: true }),\r\n                react_1.default.createElement(react_router_dom_1.Link, { to: '/login' }, \" Login Form \"),\r\n                react_1.default.createElement(Break_1.Break, { size: 20, top: true }),\r\n                react_1.default.createElement(react_router_dom_1.Link, { to: '/signup' }, \" SignUp Form \"),\r\n                react_1.default.createElement(react_router_dom_1.Switch, null,\r\n                    react_1.default.createElement(react_router_dom_1.Route, { path: '/login', exact: true, component: Login_1.default }),\r\n                    react_1.default.createElement(react_router_dom_1.Route, { path: '/signup', exact: true, component: SignUp_1.default })),\r\n                react_1.default.createElement(Break_1.Break, { size: 20, top: true }),\r\n                react_1.default.createElement(Check_1.Check, null)))));\r\n}\r\n;\r\nexports.App = root_1.hot(() => react_1.default.createElement(AppComponent, null));\r\n\n\n//# sourceURL=webpack:///./src/App.tsx?");
 
 /***/ }),
 
@@ -2368,6 +2301,30 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 
 /***/ }),
 
+/***/ "./src/Authentification/Login.tsx":
+/*!****************************************!*\
+  !*** ./src/Authentification/Login.tsx ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst react_2 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\r\nconst store_1 = __webpack_require__(/*! ../store/store */ \"./src/store/store.ts\");\r\nfunction Login() {\r\n    const [formData, setFormData] = react_2.useState({\r\n        email: '',\r\n        password: '' // required\r\n    });\r\n    const value = react_redux_1.useSelector(state => state.tokenText);\r\n    const dispatch = react_redux_1.useDispatch();\r\n    function handleSubmit(e) {\r\n        e.preventDefault();\r\n        fetch('http://localhost:5000/login', {\r\n            method: 'POST',\r\n            headers: { 'Content-Type': 'application/json' },\r\n            body: JSON.stringify(formData)\r\n        })\r\n            .then(res => res.json())\r\n            .then(data => { if (data.accessToken)\r\n            dispatch(store_1.setToken(data.accessToken)); console.log(data.accessToken); });\r\n    }\r\n    function handleChange(e) {\r\n        setFormData(Object.assign(Object.assign({}, formData), { [e.target.name]: e.target.value }));\r\n    }\r\n    return (react_1.default.createElement(\"div\", null,\r\n        react_1.default.createElement(\"h1\", { className: 'mt-3' }, \"Login Form\"),\r\n        react_1.default.createElement(\"form\", { className: 'login-form', onSubmit: e => handleSubmit(e) },\r\n            react_1.default.createElement(\"input\", { className: 'form-control mb-2', type: 'text', placeholder: 'Email', value: formData.email, name: 'email', onChange: e => handleChange(e) }),\r\n            react_1.default.createElement(\"input\", { className: 'form-control mb-3', type: 'text', placeholder: 'Password', value: formData.password, name: 'password', onChange: e => handleChange(e) }),\r\n            react_1.default.createElement(\"button\", { className: 'btn btn-primary', type: 'submit' }, \"Login\"))));\r\n}\r\nexports.default = Login;\r\n\n\n//# sourceURL=webpack:///./src/Authentification/Login.tsx?");
+
+/***/ }),
+
+/***/ "./src/Authentification/SignUp.tsx":
+/*!*****************************************!*\
+  !*** ./src/Authentification/SignUp.tsx ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst react_2 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nfunction SignUp() {\r\n    const [formData, setFormData] = react_2.useState({\r\n        email: '',\r\n        password: '',\r\n        username: '' // optional\r\n    });\r\n    function handleSubmit(e) {\r\n        e.preventDefault();\r\n        fetch('http://localhost:5000/users', {\r\n            method: 'POST',\r\n            headers: { 'Content-Type': 'application/json' },\r\n            body: JSON.stringify(formData)\r\n        })\r\n            .then(res => res.json())\r\n            .then(data => console.log(data));\r\n    }\r\n    function handleChange(e) {\r\n        setFormData(Object.assign(Object.assign({}, formData), { [e.target.name]: e.target.value }));\r\n    }\r\n    return (react_1.default.createElement(\"div\", null,\r\n        react_1.default.createElement(\"h1\", { className: 'mt-3' }, \"SignUp Form\"),\r\n        react_1.default.createElement(\"form\", { className: 'login-form', onSubmit: e => handleSubmit(e) },\r\n            react_1.default.createElement(\"input\", { className: 'form-control mb-2', type: 'text', placeholder: 'Username', value: formData.username, name: 'username', onChange: e => handleChange(e) }),\r\n            react_1.default.createElement(\"input\", { className: 'form-control mb-2', type: 'text', placeholder: 'Email', value: formData.email, name: 'email', onChange: e => handleChange(e) }),\r\n            react_1.default.createElement(\"input\", { className: 'form-control mb-3', type: 'text', placeholder: 'Password', value: formData.password, name: 'password', onChange: e => handleChange(e) }),\r\n            react_1.default.createElement(\"button\", { className: 'btn btn-primary', type: 'submit' }, \"Sign Up\"))));\r\n}\r\nexports.default = SignUp;\r\n\n\n//# sourceURL=webpack:///./src/Authentification/SignUp.tsx?");
+
+/***/ }),
+
 /***/ "./src/Check.tsx":
 /*!***********************!*\
   !*** ./src/Check.tsx ***!
@@ -2376,7 +2333,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Check = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst AppList_1 = __importDefault(__webpack_require__(/*! ./AppList */ \"./src/AppList.tsx\"));\r\nconst usePostsData_1 = __webpack_require__(/*! ./hooks/usePostsData */ \"./src/hooks/usePostsData.ts\");\r\nfunction Check() {\r\n    const [data] = usePostsData_1.usePostsData();\r\n    let count = false;\r\n    if (data.length > 0) {\r\n        count = true;\r\n    }\r\n    ;\r\n    return (react_1.default.createElement(\"div\", null, count && (react_1.default.createElement(AppList_1.default, null))));\r\n}\r\nexports.Check = Check;\r\n\n\n//# sourceURL=webpack:///./src/Check.tsx?");
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Check = void 0;\r\nconst react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\r\nconst AppList_1 = __importDefault(__webpack_require__(/*! ./AppList */ \"./src/AppList.tsx\"));\r\nfunction Check() {\r\n    const [data, setData] = react_1.useState(false);\r\n    const token = react_redux_1.useSelector(state => state.tokenText);\r\n    react_1.useEffect(() => {\r\n        if (token) {\r\n            setData(true);\r\n        }\r\n    }, [token]);\r\n    return (react_1.default.createElement(\"div\", null, (data) && (react_1.default.createElement(AppList_1.default, null))));\r\n}\r\nexports.Check = Check;\r\n\n\n//# sourceURL=webpack:///./src/Check.tsx?");
 
 /***/ }),
 
@@ -2428,30 +2385,6 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 
 /***/ }),
 
-/***/ "./src/hooks/usePostsData.ts":
-/*!***********************************!*\
-  !*** ./src/hooks/usePostsData.ts ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.usePostsData = void 0;\r\nconst axios_1 = __importDefault(__webpack_require__(/*! axios */ \"./node_modules/axios/index.js\"));\r\nconst react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\r\nfunction usePostsData() {\r\n    const [data, setData] = react_1.useState([]);\r\n    const token = react_redux_1.useSelector(state => state.token.token);\r\n    react_1.useEffect(() => {\r\n        axios_1.default.get('https://oauth.reddit.com/best.json?limit=20&sr_detail&after', {\r\n            headers: { Authorization: `bearer ${token}` }\r\n        })\r\n            .then((resp) => {\r\n            const postsData = resp.data.data.children;\r\n            setData(postsData);\r\n        })\r\n            .catch(console.log);\r\n    }, [token]);\r\n    return [data];\r\n}\r\nexports.usePostsData = usePostsData;\r\n\n\n//# sourceURL=webpack:///./src/hooks/usePostsData.ts?");
-
-/***/ }),
-
-/***/ "./src/hooks/useUserData.ts":
-/*!**********************************!*\
-  !*** ./src/hooks/useUserData.ts ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.useUserData = void 0;\r\nconst react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\r\nconst actions_1 = __webpack_require__(/*! ../store/me/actions */ \"./src/store/me/actions.ts\");\r\nfunction useUserData() {\r\n    const data = react_redux_1.useSelector(state => state.me.data);\r\n    const loading = react_redux_1.useSelector(state => state.me.loading);\r\n    const token = react_redux_1.useSelector(state => state.token.token);\r\n    const dispatch = react_redux_1.useDispatch();\r\n    react_1.useEffect(() => {\r\n        if (!token)\r\n            return;\r\n        dispatch(actions_1.meRequestAsync());\r\n    }, [token]);\r\n    return {\r\n        data,\r\n        loading\r\n    };\r\n}\r\nexports.useUserData = useUserData;\r\n\n\n//# sourceURL=webpack:///./src/hooks/useUserData.ts?");
-
-/***/ }),
-
 /***/ "./src/main.global.css":
 /*!*****************************!*\
   !*** ./src/main.global.css ***!
@@ -2498,158 +2431,6 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 
 /***/ }),
 
-/***/ "./src/shared/Context/postsContext.tsx":
-/*!*********************************************!*\
-  !*** ./src/shared/Context/postsContext.tsx ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.PostsContextProvider = exports.postsContext = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst usePostsData_1 = __webpack_require__(/*! ../../hooks/usePostsData */ \"./src/hooks/usePostsData.ts\");\r\nexports.postsContext = react_1.default.createContext([]);\r\nfunction PostsContextProvider({ children }) {\r\n    const [data] = usePostsData_1.usePostsData();\r\n    return (react_1.default.createElement(exports.postsContext.Provider, { value: data }, children));\r\n}\r\nexports.PostsContextProvider = PostsContextProvider;\r\n\n\n//# sourceURL=webpack:///./src/shared/Context/postsContext.tsx?");
-
-/***/ }),
-
-/***/ "./src/shared/Context/userContext.tsx":
-/*!********************************************!*\
-  !*** ./src/shared/Context/userContext.tsx ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.UserContextProvider = exports.userContext = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst useUserData_1 = __webpack_require__(/*! ../../hooks/useUserData */ \"./src/hooks/useUserData.ts\");\r\nexports.userContext = react_1.default.createContext({});\r\nfunction UserContextProvider({ children }) {\r\n    const { data, loading } = useUserData_1.useUserData();\r\n    return (react_1.default.createElement(exports.userContext.Provider, { value: data }, children));\r\n}\r\nexports.UserContextProvider = UserContextProvider;\r\n\n\n//# sourceURL=webpack:///./src/shared/Context/userContext.tsx?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/Header.tsx":
-/*!**************************************!*\
-  !*** ./src/shared/Header/Header.tsx ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Header = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst header_css_1 = __importDefault(__webpack_require__(/*! ./header.css */ \"./src/shared/Header/header.css\"));\r\nconst SearchBlock_1 = __webpack_require__(/*! ./SearchBlock/SearchBlock */ \"./src/shared/Header/SearchBlock/SearchBlock.tsx\");\r\nconst SortBlock_1 = __webpack_require__(/*! ./SortBlock/SortBlock */ \"./src/shared/Header/SortBlock/SortBlock.tsx\");\r\nfunction Header() {\r\n    return (react_1.default.createElement(\"header\", { className: header_css_1.default.header },\r\n        react_1.default.createElement(SearchBlock_1.SearchBlock, null),\r\n        react_1.default.createElement(SortBlock_1.SortBlock, null)));\r\n}\r\nexports.Header = Header;\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/Header.tsx?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/SearchBlock/SearchBlock.tsx":
-/*!*******************************************************!*\
-  !*** ./src/shared/Header/SearchBlock/SearchBlock.tsx ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.SearchBlock = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst searchblock_css_1 = __importDefault(__webpack_require__(/*! ./searchblock.css */ \"./src/shared/Header/SearchBlock/searchblock.css\"));\r\nconst UserBlock_1 = __webpack_require__(/*! ./UserBlock */ \"./src/shared/Header/SearchBlock/UserBlock/index.ts\");\r\nconst useUserData_1 = __webpack_require__(/*! ../../../hooks/useUserData */ \"./src/hooks/useUserData.ts\");\r\nfunction SearchBlock() {\r\n    const { data, loading } = useUserData_1.useUserData();\r\n    return (react_1.default.createElement(\"div\", { className: searchblock_css_1.default.searchBlock },\r\n        react_1.default.createElement(UserBlock_1.UserBlock, { avatarSrc: data.iconImage, username: data.name, loading: loading })));\r\n}\r\nexports.SearchBlock = SearchBlock;\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/SearchBlock.tsx?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/SearchBlock/UserBlock/UserBlock.tsx":
-/*!***************************************************************!*\
-  !*** ./src/shared/Header/SearchBlock/UserBlock/UserBlock.tsx ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.UserBlock = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst Break_1 = __webpack_require__(/*! ../../../Break */ \"./src/shared/Break/index.ts\");\r\nconst IconAnon_1 = __webpack_require__(/*! ../../../Icons/IconAnon */ \"./src/shared/Icons/IconAnon.tsx\");\r\nconst Text_1 = __webpack_require__(/*! ../../../Text */ \"./src/shared/Text/index.ts\");\r\nconst userblock_css_1 = __importDefault(__webpack_require__(/*! ./userblock.css */ \"./src/shared/Header/SearchBlock/UserBlock/userblock.css\"));\r\nfunction UserBlock({ avatarSrc, username, loading }) {\r\n    return (react_1.default.createElement(\"a\", { href: `https://www.reddit.com/api/v1/authorize?client_id=${'BA_9dzUzJI0Ue2b_3VC81A'}&response_type=code&state=random_string&redirect_uri=${'http://localhost:3000/auth'}&duration=temporary&scope=read submit identity`, className: userblock_css_1.default.userBox },\r\n        react_1.default.createElement(\"div\", { className: userblock_css_1.default.avatarBox }, avatarSrc\r\n            ? react_1.default.createElement(\"img\", { src: avatarSrc, alt: \"user avatar\", className: userblock_css_1.default.avatarImage })\r\n            : react_1.default.createElement(IconAnon_1.IconAnon, null)),\r\n        react_1.default.createElement(\"div\", { className: userblock_css_1.default.username },\r\n            react_1.default.createElement(Break_1.Break, { size: 12 }),\r\n            loading ? (react_1.default.createElement(Text_1.Text, { size: 20, color: Text_1.EColor.grey99 },\r\n                \" \",\r\n                username || 'Загрузка...')) : (react_1.default.createElement(Text_1.Text, { size: 20, color: username ? Text_1.EColor.black : Text_1.EColor.grey99 },\r\n                \" \",\r\n                username || 'Личный кабинет')))));\r\n}\r\nexports.UserBlock = UserBlock;\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/UserBlock/UserBlock.tsx?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/SearchBlock/UserBlock/index.ts":
-/*!**********************************************************!*\
-  !*** ./src/shared/Header/SearchBlock/UserBlock/index.ts ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./UserBlock */ \"./src/shared/Header/SearchBlock/UserBlock/UserBlock.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/UserBlock/index.ts?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/SearchBlock/UserBlock/userblock.css":
-/*!***************************************************************!*\
-  !*** ./src/shared/Header/SearchBlock/UserBlock/userblock.css ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./userblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/UserBlock/userblock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./userblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/UserBlock/userblock.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./userblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/UserBlock/userblock.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/UserBlock/userblock.css?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/SearchBlock/searchblock.css":
-/*!*******************************************************!*\
-  !*** ./src/shared/Header/SearchBlock/searchblock.css ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/searchblock.css?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/SortBlock/SortBlock.tsx":
-/*!***************************************************!*\
-  !*** ./src/shared/Header/SortBlock/SortBlock.tsx ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.SortBlock = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst sortblock_css_1 = __importDefault(__webpack_require__(/*! ./sortblock.css */ \"./src/shared/Header/SortBlock/sortblock.css\"));\r\nfunction SortBlock() {\r\n    return (react_1.default.createElement(\"div\", { className: sortblock_css_1.default.sortBlock }, \"\\u0414\\u043B\\u044F \\u0430\\u0432\\u0442\\u043E\\u0440\\u0438\\u0437\\u0430\\u0446\\u0438\\u0438 \\u0432\\u043E\\u0439\\u0434\\u0438\\u0442\\u0435 \\u0432 \\u043B\\u0438\\u0447\\u043D\\u044B\\u0439 \\u043A\\u0430\\u0431\\u0438\\u043D\\u0435\\u0442\"));\r\n}\r\nexports.SortBlock = SortBlock;\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/SortBlock/SortBlock.tsx?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/SortBlock/sortblock.css":
-/*!***************************************************!*\
-  !*** ./src/shared/Header/SortBlock/sortblock.css ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SortBlock/sortblock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SortBlock/sortblock.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SortBlock/sortblock.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Header/SortBlock/sortblock.css?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/header.css":
-/*!**************************************!*\
-  !*** ./src/shared/Header/header.css ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/header.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/header.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/header.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Header/header.css?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/index.ts":
-/*!************************************!*\
-  !*** ./src/shared/Header/index.ts ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Header */ \"./src/shared/Header/Header.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/index.ts?");
-
-/***/ }),
-
-/***/ "./src/shared/Icons/IconAnon.tsx":
-/*!***************************************!*\
-  !*** ./src/shared/Icons/IconAnon.tsx ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.IconAnon = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nfunction IconAnon() {\r\n    return (react_1.default.createElement(\"svg\", { width: \"50\", height: \"50\", viewBox: \"0 0 50 50\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n        react_1.default.createElement(\"path\", { d: \"M25 0C11.2 0 0 11.2 0 25C0 38.8 11.2 50 25 50C38.8 50 50 38.8 50 25C50 11.2 38.8 0 25 0ZM25 7.5C29.15 7.5 32.5 10.85 32.5 15C32.5 19.15 29.15 22.5 25 22.5C20.85 22.5 17.5 19.15 17.5 15C17.5 10.85 20.85 7.5 25 7.5ZM25 43C18.75 43 13.225 39.8 10 34.95C10.075 29.975 20 27.25 25 27.25C29.975 27.25 39.925 29.975 40 34.95C36.775 39.8 31.25 43 25 43Z\", fill: \"#D9D9D9\" })));\r\n}\r\nexports.IconAnon = IconAnon;\r\n\n\n//# sourceURL=webpack:///./src/shared/Icons/IconAnon.tsx?");
-
-/***/ }),
-
 /***/ "./src/shared/Layout/Layout.tsx":
 /*!**************************************!*\
   !*** ./src/shared/Layout/Layout.tsx ***!
@@ -2685,98 +2466,15 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 /***/ }),
 
-/***/ "./src/shared/Text/Text.tsx":
-/*!**********************************!*\
-  !*** ./src/shared/Text/Text.tsx ***!
-  \**********************************/
+/***/ "./src/store/store.ts":
+/*!****************************!*\
+  !*** ./src/store/store.ts ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Text = exports.EColor = void 0;\r\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nconst text_css_1 = __importDefault(__webpack_require__(/*! ./text.css */ \"./src/shared/Text/text.css\"));\r\nconst classnames_1 = __importDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\r\nvar EColor;\r\n(function (EColor) {\r\n    EColor[\"black\"] = \"black\";\r\n    EColor[\"orange\"] = \"orange\";\r\n    EColor[\"green\"] = \"green\";\r\n    EColor[\"white\"] = \"white\";\r\n    EColor[\"grayF4\"] = \"grayF4\";\r\n    EColor[\"greyF3\"] = \"greyF3\";\r\n    EColor[\"greyEC\"] = \"greyEC\";\r\n    EColor[\"greyD9\"] = \"greyD9\";\r\n    EColor[\"greyC4\"] = \"greyC4\";\r\n    EColor[\"grey99\"] = \"grey99\";\r\n    EColor[\"grey66\"] = \"grey66\";\r\n})(EColor = exports.EColor || (exports.EColor = {}));\r\nfunction Text(props) {\r\n    const { As = 'span', color = EColor.grey66, bold = false, children, size, mobileSize, desktopSize, tableSize, } = props;\r\n    const classes = classnames_1.default(text_css_1.default[`s${size}`], text_css_1.default[color], { [text_css_1.default.bold]: bold }, { [text_css_1.default[`m${mobileSize}`]]: mobileSize }, { [text_css_1.default[`t${tableSize}`]]: tableSize }, { [text_css_1.default[`d${desktopSize}`]]: desktopSize });\r\n    return (react_1.default.createElement(As, { className: classes }, children));\r\n}\r\nexports.Text = Text;\r\n\n\n//# sourceURL=webpack:///./src/shared/Text/Text.tsx?");
-
-/***/ }),
-
-/***/ "./src/shared/Text/index.ts":
-/*!**********************************!*\
-  !*** ./src/shared/Text/index.ts ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Text */ \"./src/shared/Text/Text.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Text/index.ts?");
-
-/***/ }),
-
-/***/ "./src/shared/Text/text.css":
-/*!**********************************!*\
-  !*** ./src/shared/Text/text.css ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./text.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Text/text.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./text.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Text/text.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./text.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Text/text.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Text/text.css?");
-
-/***/ }),
-
-/***/ "./src/store/me/actions.ts":
-/*!*********************************!*\
-  !*** ./src/store/me/actions.ts ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.meRequestAsync = exports.MeRequestError = exports.ME_REQUEST_ERROR = exports.MeRequestSuccess = exports.ME_REQUEST_SUCCESS = exports.MeRequest = exports.ME_REQUEST = void 0;\r\nconst axios_1 = __importDefault(__webpack_require__(/*! axios */ \"./node_modules/axios/index.js\"));\r\nexports.ME_REQUEST = 'ME_REQUEST';\r\nconst MeRequest = () => ({\r\n    type: exports.ME_REQUEST\r\n});\r\nexports.MeRequest = MeRequest;\r\nexports.ME_REQUEST_SUCCESS = 'ME_REQUEST_SUCCESS';\r\nconst MeRequestSuccess = (data) => ({\r\n    type: exports.ME_REQUEST_SUCCESS,\r\n    data,\r\n});\r\nexports.MeRequestSuccess = MeRequestSuccess;\r\nexports.ME_REQUEST_ERROR = 'ME_REQUEST_ERROR';\r\nconst MeRequestError = (error) => ({\r\n    type: exports.ME_REQUEST_ERROR,\r\n    error,\r\n});\r\nexports.MeRequestError = MeRequestError;\r\nconst meRequestAsync = () => (dispatch, getState) => {\r\n    dispatch(exports.MeRequest());\r\n    axios_1.default.get('https://oauth.reddit.com/api/v1/me', {\r\n        headers: { Authorization: `bearer ${getState().token.token}` }\r\n    })\r\n        .then((resp) => {\r\n        const userData = resp.data;\r\n        dispatch(exports.MeRequestSuccess({ name: userData.name, iconImage: userData.icon_img }));\r\n    })\r\n        .catch((error) => {\r\n        console.log(error);\r\n        dispatch(exports.MeRequestError(String(error)));\r\n    });\r\n};\r\nexports.meRequestAsync = meRequestAsync;\r\n\n\n//# sourceURL=webpack:///./src/store/me/actions.ts?");
-
-/***/ }),
-
-/***/ "./src/store/me/reducer.ts":
-/*!*********************************!*\
-  !*** ./src/store/me/reducer.ts ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.meReducer = void 0;\r\nconst actions_1 = __webpack_require__(/*! ./actions */ \"./src/store/me/actions.ts\");\r\nconst meReducer = (state, action) => {\r\n    switch (action.type) {\r\n        case actions_1.ME_REQUEST:\r\n            return Object.assign(Object.assign({}, state), { loading: true });\r\n        case actions_1.ME_REQUEST_ERROR:\r\n            return Object.assign(Object.assign({}, state), { error: action.error, loading: false });\r\n        case actions_1.ME_REQUEST_SUCCESS:\r\n            return Object.assign(Object.assign({}, state), { data: action.data });\r\n        default: return state;\r\n    }\r\n};\r\nexports.meReducer = meReducer;\r\n\n\n//# sourceURL=webpack:///./src/store/me/reducer.ts?");
-
-/***/ }),
-
-/***/ "./src/store/reducer.ts":
-/*!******************************!*\
-  !*** ./src/store/reducer.ts ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.rootReducer = exports.updateComment = void 0;\r\nconst actions_1 = __webpack_require__(/*! ./me/actions */ \"./src/store/me/actions.ts\");\r\nconst reducer_1 = __webpack_require__(/*! ./me/reducer */ \"./src/store/me/reducer.ts\");\r\nconst actionsToken_1 = __webpack_require__(/*! ./saveToken/actionsToken */ \"./src/store/saveToken/actionsToken.ts\");\r\nconst reducerToken_1 = __webpack_require__(/*! ./saveToken/reducerToken */ \"./src/store/saveToken/reducerToken.ts\");\r\nconst initialState = {\r\n    commentText: 'Привет, Skillbox!',\r\n    token: {\r\n        token: '',\r\n    },\r\n    me: {\r\n        loading: false,\r\n        error: '',\r\n        data: {},\r\n    },\r\n};\r\nconst UPDATE_COMMENT = 'UPDATE_COMMENT';\r\nconst updateComment = (text) => ({\r\n    type: UPDATE_COMMENT,\r\n    text,\r\n});\r\nexports.updateComment = updateComment;\r\nconst rootReducer = (state = initialState, action) => {\r\n    switch (action.type) {\r\n        case UPDATE_COMMENT:\r\n            return Object.assign(Object.assign({}, state), { commentText: action.text });\r\n        case actionsToken_1.TOKEN:\r\n            return Object.assign(Object.assign({}, state), { token: reducerToken_1.tokenReducer(state.token, action) });\r\n        case actions_1.ME_REQUEST:\r\n        case actions_1.ME_REQUEST_SUCCESS:\r\n        case actions_1.ME_REQUEST_ERROR:\r\n            return Object.assign(Object.assign({}, state), { me: reducer_1.meReducer(state.me, action) });\r\n        default:\r\n            return state;\r\n    }\r\n};\r\nexports.rootReducer = rootReducer;\r\n\n\n//# sourceURL=webpack:///./src/store/reducer.ts?");
-
-/***/ }),
-
-/***/ "./src/store/saveToken/actionsToken.ts":
-/*!*********************************************!*\
-  !*** ./src/store/saveToken/actionsToken.ts ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.saveToken = exports.SetToken = exports.TOKEN = void 0;\r\nconst react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nexports.TOKEN = 'TOKEN';\r\nconst SetToken = (token) => ({\r\n    type: exports.TOKEN,\r\n    token,\r\n});\r\nexports.SetToken = SetToken;\r\nconst saveToken = () => (dispatch) => {\r\n    react_1.useEffect(() => {\r\n        if (window.__token__)\r\n            dispatch(exports.SetToken(window.__token__));\r\n    }, []);\r\n};\r\nexports.saveToken = saveToken;\r\n\n\n//# sourceURL=webpack:///./src/store/saveToken/actionsToken.ts?");
-
-/***/ }),
-
-/***/ "./src/store/saveToken/reducerToken.ts":
-/*!*********************************************!*\
-  !*** ./src/store/saveToken/reducerToken.ts ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.tokenReducer = void 0;\r\nconst actionsToken_1 = __webpack_require__(/*! ./actionsToken */ \"./src/store/saveToken/actionsToken.ts\");\r\nconst tokenReducer = (state, action) => {\r\n    switch (action.type) {\r\n        case actionsToken_1.TOKEN:\r\n            return Object.assign(Object.assign({}, state), { token: action.token });\r\n        default: return state;\r\n    }\r\n};\r\nexports.tokenReducer = tokenReducer;\r\n\n\n//# sourceURL=webpack:///./src/store/saveToken/reducerToken.ts?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.rootReducer = exports.setToken = void 0;\r\nconst initialState = {\r\n    tokenText: ''\r\n};\r\nconst TOKEN = 'TOKEN';\r\nconst setToken = (text) => ({\r\n    type: TOKEN,\r\n    text,\r\n});\r\nexports.setToken = setToken;\r\nconst rootReducer = (state = initialState, action) => {\r\n    switch (action.type) {\r\n        case TOKEN:\r\n            return Object.assign(Object.assign({}, state), { tokenText: action.text });\r\n        default:\r\n            return state;\r\n    }\r\n};\r\nexports.rootReducer = rootReducer;\r\n\n\n//# sourceURL=webpack:///./src/store/store.ts?");
 
 /***/ }),
 
@@ -2787,7 +2485,7 @@ eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nex
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! C:\\Users\\User\\Desktop\\Программирование\\Собеседования\\1\\ContactApp\\src\\client\\index.jsx */\"./src/client/index.jsx\");\nmodule.exports = __webpack_require__(/*! webpack-hot-middleware/client?path=http://localhost:3001/static/__webpack_hmr */\"./node_modules/webpack-hot-middleware/client.js?path=http://localhost:3001/static/__webpack_hmr\");\n\n\n//# sourceURL=webpack:///multi_./src/client/index.jsx_webpack-hot-middleware/client?");
+eval("__webpack_require__(/*! C:\\Users\\User\\Desktop\\Программирование\\MyProject\\AppList\\ContactApp2\\ContactApp\\src\\client\\index.jsx */\"./src/client/index.jsx\");\nmodule.exports = __webpack_require__(/*! webpack-hot-middleware/client?path=http://localhost:3001/static/__webpack_hmr */\"./node_modules/webpack-hot-middleware/client.js?path=http://localhost:3001/static/__webpack_hmr\");\n\n\n//# sourceURL=webpack:///multi_./src/client/index.jsx_webpack-hot-middleware/client?");
 
 /***/ })
 

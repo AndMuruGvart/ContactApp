@@ -35,6 +35,23 @@
       "address": "qwe",
       "description": "qwe",
       "id": 5
+    },
+    {
+      "first_name": "dzsfvs",
+      "last_name": "zxcz",
+      "email": "cxzx",
+      "phone": "zxczx",
+      "address": "czxx",
+      "description": "czx",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "email": "123@123.com",
+      "password": "$2a$10$Sxno/0p7Gx5/.jUUTUJrK.6MCRB0RLpSDE6Y0rVPBlSWpicHQp/UC",
+      "username": "123@123.com",
+      "id": 3
     }
   ]
 }

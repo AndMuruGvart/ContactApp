@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { RouteComponentProps, withRouter } from 'react-router-dom';
 import axios from 'axios';
-import { useSelector } from 'react-redux';
-import { RootState } from '../../store/reducer';
+
 
 
 export interface IValues {

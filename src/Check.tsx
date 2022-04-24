@@ -1,24 +1,23 @@
-import React, { useEffect, useRef, useState } from 'react';
-import axios from 'axios';
+import React, { useEffect, useState }  from 'react';
 import { useSelector } from 'react-redux';
-import { set } from 'react-hook-form';
 import AppList from './AppList';
-import { usePostsData } from './hooks/usePostsData';
+import { RootState } from './store/store';
+import { useToken } from './store/useToken';
 
 export function Check() {
-      
-   const [data]=usePostsData();
-   let count=false;
-   
-   if (data.length>0) { count=true};
+   const [data, setData] = useState(false);   
+   const token =useSelector<RootState, string>(state=>state.tokenText);
+    useEffect(() => {
+        if (token) {
+          setData(true);
+        }
 
+     }, [token]);
+  
      return (
        <div>
-          { count && (<AppList/> )}
-                
-
+          { (data) && (<AppList/> )}
        </div>
-
      );
 
 
